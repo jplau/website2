@@ -7,7 +7,7 @@ body {
 	padding:0;
 }
 #home {
-	position:relative;
+	
 	min-height:100vh;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -17,7 +17,6 @@ body {
 	background-color: #464646;
 }
 #thoughts-1 {
-	position:relative;
 	min-height:100vh;
 	background-position: center center;
 	background-repeat: no-repeat;
