@@ -3,34 +3,26 @@
 
 body {
 	font-family:Arial, Helvetica, sans-serif;
-	margin:0;
-	padding:0;
-}
-#home {
-	position:relative;
-	min-height:100vh;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	background-color: #464646;
+}
+body.home {
 	background-image: url('../images/bg-web.jpg');
-	background-color: #464646;
 }
-#thoughts-1 {
-	position:relative;
-	min-height:100vh;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+body.thoughts {
 	background-image: url('../images/post1b.jpg');
-	background-color: #464646;
+}
+body.post {
+	background-color:#FFF;
 }
 a {
 	color:#333;
 }
 a:hover {
-	color:#999;
+	color:#000;
 }
 
 h1 {
@@ -38,15 +30,8 @@ h1 {
 	font-size:50px;
 	font-weight:400;
 }
-h2 {
-	font-family: 'Lora', serif;
-	font-size:35px;
-	font-weight:400;
-}
-p {
-	font-size:16px;
-}
-.container {
+
+#container {
 	overflow:hidden;
 	width:90%;
 	margin-left:auto;
@@ -58,13 +43,6 @@ p {
 	font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	text-transform:uppercase;
-	z-index:1;
-	position:fixed;
-	padding-left:5%;
-	width:100%;
-	height:45px;
-	background:url('../images/menu.png') no-repeat 2% center, url('../images/blank-square.png') repeat;
-	transition: .8s linear all;
 }
 #nav ul {
 	padding-left:0;
@@ -72,14 +50,18 @@ p {
 #nav li {
 	list-style-type:none;
 	float:left;
-	padding:0 15px;
+	padding:8px 15px 8px 15px
 }
 #nav li a {
 	text-decoration:none;
 }
-#nav.background {
-	background:url('../images/menu-black.png') no-repeat 2% center, url('../images/white-square.png') repeat;
+#nav li.active {
+	border-bottom:1px solid #000;
 }
+#nav li:hover {
+	border-bottom:1px solid #000;
+}
+
 /* home page - main text */
 #stage {
 	position:absolute;
@@ -133,10 +115,14 @@ p {
 	text-decoration:none;
 }
 
-.left-col {
+/* blog post page */
+#main-column {
 	position:absolute;
-	width:40%;
 	top:10%;
+	width: 80%;
+}
+#main-column h1 {
+	border-bottom:1px solid #ccc;
 }
 
 /* photo caption */
