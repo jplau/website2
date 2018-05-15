@@ -28,18 +28,5 @@ $(document).ready(function(){
          $('#nav').removeClass('background')
       }
    	});
-	
-	//Auto-resize function
-	$('#home') .css({'min-height': (($(window).height()))+'px'});
-    $(window).resize(function(){
-        $('#home') .css({'min-height': (($(window).height()))+'px'});
-    });
-	$('#thoughts-1') .css({'min-height': (($(window).height()))+'px'});
-    $(window).resize(function(){
-        $('#thoughts-1') .css({'min-height': (($(window).height()))+'px'});
-    });
-	$('#travel-1') .css({'min-height': (($(window).height()))+'px'});
-    $(window).resize(function(){
-        $('#travel-1') .css({'min-height': (($(window).height()))+'px'});
-    });
+
 });

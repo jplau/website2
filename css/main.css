@@ -8,6 +8,7 @@ body {
 }
 #home {
 	position:relative;
+	min-height:100vh;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -17,20 +18,12 @@ body {
 }
 #thoughts-1 {
 	position:relative;
+	min-height:100vh;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-image: url('../images/post1b.jpg');
-	background-color: #464646;
-}
-#travel-1 {
-	position:relative;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-image: url('../images/travel/israel1.jpg');
 	background-color: #464646;
 }
 a {
