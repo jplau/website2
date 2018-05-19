@@ -5,11 +5,6 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	margin:0;
 	padding:0;
-}
-#home {
-	position:relative;
-	height:100vh;
-	width:100vw;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -17,16 +12,14 @@ body {
 	background-image: url('../images/bg-web.jpg');
 	background-color: #464646;
 }
-#thoughts-1 {
+#home {
 	position:relative;
 	height:100vh;
-	width:100vw;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-image: url('../images/post1b.jpg');
-	background-color: #464646;
+}
+#thoughts-1 {
+	position:relative;
+	min-height:100vh;
+	background-color: #FFF;
 }
 a {
 	color:#333;
