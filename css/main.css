@@ -5,19 +5,26 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	margin:0;
 	padding:0;
+}
+#home {
+	position:relative;
+	height:100vh;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: cover;
 	background-image: url('../images/bg-web.jpg');
 	background-color: #464646;
 }
-#home {
-}
 #thoughts-1 {
 	position:relative;
-	min-height:100vh;
-	background-color: #FFF;
+	height:100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-image: url('../images/post1b.jpg');
+	background-color: #464646;
 }
 a {
 	color:#333;
